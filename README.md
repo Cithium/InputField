@@ -4,7 +4,7 @@
 
 ### Initializer
 
-- `init(inputText: String, maximumCharacters: Int)`: Initializes an `InputField` instance with the provided `inputText` and `maximumCharacters`. In the initializer the `InputFieldManager` manager object is created with the given input text and maximum character limit. Within `InputFieldManager` the state variable with type `InputFieldState` is initialized and together with the manager this will automatically handle the appearance of `InputField` depending on the state decided by the user input.
+- `init(inputText: String, maximumInputCharacters: Int)`: Initializes an `InputField` instance with the provided `inputText` and `maximumCharacters`. In the initializer the `InputFieldManager` manager object is created with the given input text and maximum character limit. Within `InputFieldManager` the state variable with type `InputFieldState` is initialized and together with the manager this will automatically handle the appearance of `InputField` depending on the state decided by the user input.
 
 ### View Hierarchy
 
