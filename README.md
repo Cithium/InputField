@@ -15,7 +15,7 @@
 
 ### EnvironmentObject Modifier
 
-- `.environmentObject(manager)`: Sets the `manager` object as the environment object for the view so the components have access to the source of truth.
+- `.environmentObject(manager)`: Sets the internal `manager` object as the environment object for the view so the components have access to the source of truth.
 
 ### Usage 
 
